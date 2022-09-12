@@ -1,0 +1,138 @@
+.App {
+	display: flex;
+	flex-direction: column;
+}
+
+.rnmImage {
+	align-self: center;
+	max-width: 40%;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexColumn { 
+	display:flex;
+	flex-direction: column;
+}
+
+.charactersList{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexWrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexBasis{
+	flex-basis: 33%;
+}
+
+.pl1{
+	padding-left: 1rem;
+}
+
+.pr1{
+	padding-right: 1rem;
+}
+
+.pl2 {
+	padding-left: 2rem;
+}
+
+.pr2 {
+	padding-right: 2rem;
+}
+
+.pt1{
+	padding-top: 1rem;
+}
+
+.pb1{
+	padding-bottom: 1rem;
+}
+
+.pt2 {
+	padding-top: 2rem;
+}
+
+.pb2 {
+	padding-bottom: 2rem;
+}
+
+.charImage {
+	height: 128px !important;
+	width: 128px !important;
+	text-align: center;
+}
+
+.charCard{
+	width: 100%;
+	margin-bottom: 2rem;
+	background-color: #282a38 !important;
+	border-radius: 10px !important;
+	border: 0.5px solid #646464;
+	position: relative;
+}
+
+.genderContainer{
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.profileName {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.spaceBetween{
+	justify-content: space-between;
+}
+
+.w100{
+	width: 100%;
+}
+
+.white{
+	color: white;
+}
+
+.grey{
+	color: #939191;
+}
+
+.infoContainer{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.speciesEpisodesContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.rnmImage {
+		max-width: 80%;
+	}
+
+	.charactersList{
+		flex-direction: column;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1368px){
+	.flexBasis{
+		flex-basis: 50%;
+	}
+}

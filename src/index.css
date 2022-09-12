@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(22, 24, 38);
+  min-height: 100%;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(53, 53, 53, 0.1);
+	border-radius: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 0 6px rgba(97, 97, 97, 0.1);
+	background-color: #3a3a3a;
+}

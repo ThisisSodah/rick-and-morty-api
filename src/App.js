@@ -1,12 +1,11 @@
 import './App.css';
 import { Home } from './components/home/Home';
+import rnmImage from "./assets/rnm-bg.png";
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        HELLO WORLD
-      </h1>
+      <img className="rnmImage" src={rnmImage} alt="rick-and-morty-logo"/>
       <Home />
     </div>
   );
